@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:clickable="true"
+    android:background="?android:attr/selectableItemBackground"
+    android:orientation="horizontal"
+    android:paddingRight="4dip">
+
+    <TextView
+        android:id="@+id/desc"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.4"
+        android:textSize="17sp"
+        android:layout_marginRight="2dip"
+        android:gravity="right"
+        android:layout_gravity="right"/>
+
+    <TextView
+        android:id="@+id/amount"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:textSize="17sp"
+        android:layout_marginRight="2dip"
+        android:layout_marginLeft="2dip"
+        android:gravity="right"
+        android:layout_gravity="right"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:textSize="17sp"
+        android:layout_marginLeft="2dip"
+        android:gravity="right"
+        android:layout_gravity="right"/>
+
+</LinearLayout>

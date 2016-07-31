@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:alpha="0.4"
+                android:background="@drawable/splash_bg"
+                android:layout_alignParentRight="false"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentBottom="false" />
+        </LinearLayout>
+
+        <ScrollView
+            android:id="@+id/scrollView3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="visible"
+                android:padding="16dip">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/txt_about_us2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|right"
+                        android:gravity="right"
+                        android:text="فندق کیست؟  "
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:id="@+id/txt_about_us3"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|right"
+                        android:gravity="right"
+                        android:text="نام تجاری : هایپرمارکت آنلاین فندق "
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:id="@+id/imageView12"
+                        android:background="@drawable/circle" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:id="@+id/txt_about_us4"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|right"
+                        android:gravity="right"
+                        android:text="نام شرکت : آراد شهر بهزیست "
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:id="@+id/imageView13"
+                        android:background="@drawable/circle" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:id="@+id/txt_about_us5"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|right"
+                        android:gravity="right"
+                        android:text="مالکیت: سهامی خاص "
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:id="@+id/imageView14"
+                        android:background="@drawable/circle" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:id="@+id/txt_about_us6"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|right"
+                        android:gravity="right"
+                        android:text="محل دفتر اصلی: اصفهان - سپاهان‌شهر "
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:id="@+id/imageView15"
+                        android:background="@drawable/circle" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:id="@+id/txt_about_us7"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|right"
+                        android:gravity="right"
+                        android:text="ماموریت: "
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:id="@+id/imageView16"
+                        android:background="@drawable/circle" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:id="@+id/txt_about_us8"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|right"
+                        android:gravity="right"
+                        android:text="فروش غیر حضوری محصولات و خدمات به عموم افراد جامعه (بدون محدودیت سنی) با حفظ؛  نوآوری، صداقت، کیفیت، ادب و احترام به صورت؛ منظم، سریع و دقیق  "
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_marginRight="24dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:id="@+id/txt_about_us9"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|right"
+                        android:gravity="right"
+                        android:text="بر پایه‌ی؛  "
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_marginRight="24dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="24dip">
+
+                    <TextView
+                        android:id="@+id/txt_about_us10"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|right"
+                        android:gravity="right"
+                        android:text=" حفظ و ارتقاء سطح سلامت خانواده‌ها"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:id="@+id/imageView19"
+                        android:background="@drawable/img_check" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="24dip">
+
+                    <TextView
+                        android:id="@+id/txt_about_us11"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|center_horizontal"
+                        android:gravity="right"
+                        android:text=" افزایش شادی و نشاط در جامعه"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:id="@+id/imageView18"
+                        android:background="@drawable/img_check" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="24dip">
+
+                    <TextView
+                        android:id="@+id/txt_about_us12"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|center_horizontal"
+                        android:gravity="right"
+                        android:text=" حفاظت از محیط زیست"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:id="@+id/imageView17"
+                        android:background="@drawable/img_check" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+
+</LinearLayout>
